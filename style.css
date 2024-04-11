@@ -1,0 +1,104 @@
+/* Отступы */
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+  }
+  
+  thead th:nth-child(1) {
+    width: 30%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 15%;
+  }
+  
+  thead th:nth-child(4) {
+    width: 35%;
+  }
+  
+  th,
+  td {
+    padding: 20px;
+  }
+
+  /* Типографика */
+
+html {
+    color: white;
+    font-family: "New Rocker", helvetica, arial, sans-serif;
+  }
+  
+  thead th,
+  tfoot th {
+    font-family: "New Rocker", cursive;
+  }
+  
+  th {
+    letter-spacing: 2px;
+  }
+  
+  td {
+    letter-spacing: 1px;
+  }
+  
+  tbody td {
+    text-align: center;
+  }
+  
+  tfoot th {
+    text-align: right;
+  }
+  
+  /* Графика и цвета */
+
+thead,
+tfoot {
+  background: url(leopardskin.jpg);
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+thead th,
+tfoot th,
+tfoot td {
+  background-color: #22092C;
+  border: 3px solid purple;
+}
+
+/* Полосатая зебра */
+
+tbody tr:nth-child(odd) {
+    background-color: #872341;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #BE3144;
+  }
+  
+  tbody tr {
+    background-image: url(noise.png);
+  }
+  
+  table {
+    background-color: #ff33cc;
+  }
+
+  /* Заголовок */
+
+caption {
+    font-family: "Rock Salt", cursive;
+    padding: 20px;
+    font-style: italic;
+    caption-side: bottom;
+    color: #666;
+    text-align: right;
+    letter-spacing: 1px;
+  }
+  
